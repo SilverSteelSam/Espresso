@@ -6,157 +6,27 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>232</width>
-    <height>360</height>
+    <width>518</width>
+    <height>521</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QFormLayout" name="formLayout">
-    <item row="2" column="0" colspan="2">
-     <widget class="QLabel" name="label">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>16777215</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Coffee</string>
-      </property>
-     </widget>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QListWidget" name="listWidget"/>
     </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="ID">
+    <item>
+     <widget class="QPushButton" name="refreshbtn">
       <property name="font">
        <font>
         <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>ID: </string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="name_label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Name:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QLineEdit" name="name"/>
-    </item>
-    <item row="7" column="0">
-     <widget class="QLabel" name="roast_label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Roast:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="14" column="0">
-     <widget class="QLabel" name="tase_label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Taste:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="17" column="0">
-     <widget class="QLabel" name="price_label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Price:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="19" column="0">
-     <widget class="QLabel" name="volume_label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Volume:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="19" column="1">
-     <widget class="QLineEdit" name="volume"/>
-    </item>
-    <item row="17" column="1">
-     <widget class="QLineEdit" name="price">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="14" column="1">
-     <widget class="QLineEdit" name="taste"/>
-    </item>
-    <item row="11" column="0">
-     <widget class="QLabel" name="beans_label">
-      <property name="font">
-       <font>
-        <pointsize>8</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Ground/beans</string>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="1">
-     <widget class="QLineEdit" name="beans"/>
-    </item>
-    <item row="7" column="1">
-     <widget class="QLineEdit" name="roast"/>
-    </item>
-    <item row="0" column="0">
-     <widget class="QPushButton" name="find_btn">
-      <property name="text">
-       <string>Find</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="add_btn">
-      <property name="text">
-       <string>Add</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QPushButton" name="set_btn">
-      <property name="text">
-       <string>Set</string>
+       <string>Refresh</string>
       </property>
      </widget>
     </item>
